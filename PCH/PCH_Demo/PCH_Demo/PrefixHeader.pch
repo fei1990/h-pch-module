@@ -1,0 +1,12 @@
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kURL "https://baidu.com"
+
+#import "Cat.h"
+#import "Dog.h"
+
+void run(void){};
+
+#endif

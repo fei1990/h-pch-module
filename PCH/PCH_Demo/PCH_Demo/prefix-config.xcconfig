@@ -1,0 +1,3 @@
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+// pch参数传递不能使用${SRCROOT},不能加双引号
+GCC_PREFIX_HEADER = PCH_Demo/PrefixHeader.pch

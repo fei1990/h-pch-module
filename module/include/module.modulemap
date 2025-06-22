@@ -1,0 +1,17 @@
+//module Zoo {
+////  header "Zoo.h"
+//  module Cat {
+//    header "Cat.h"
+//    export *
+//  }
+//  module Dog {
+//    header "Dog.h"
+//    export *
+//  }
+//}
+
+module Zoo {
+  umbrella header "Zoo.h"
+  export *
+  module * {export *}
+}
